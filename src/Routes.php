@@ -19,6 +19,6 @@ function rotas($rota) {
     if( in_array( $rota, $rotasValidas) || $rota == ""):
         require_once('../template/template.php');
     else:
-        require_once('404.html');
+        require_once('../404.html');
     endif;
 }
